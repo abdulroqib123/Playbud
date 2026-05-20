@@ -1,169 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Playbud Game Porter</title>
-    <meta
-      name="description"
-      content="Playbud - Discover and play exciting games online."
-    />
-    <meta
-      name="keywords"
-      content="games, online games, Scybud, Playbud, fun, play, entertainment"
-    />
-    <meta name="author" content="Playbud" />
-    <meta property="og:title" content="Playbud Game Portal" />
-    <meta
-      property="og:description"
-      content="Discover and play exciting games online at Playbud Game Portal."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://scyflix.github.io/Playbud/" />
-    <meta
-      property="og:image"
-      content="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757763602/ChatGPT_Image_Sep_13_2025_01_23_30_PM_gqilng.png"
-    />
-    <meta name="twitter:title" content="Playbud Game Portal" />
-    <meta
-      name="twitter:description"
-      content="Discover and play exciting games online at Playbud Game Portal."
-    />
-    <meta
-      name="twitter:image"
-      content="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757763602/ChatGPT_Image_Sep_13_2025_01_23_30_PM_gqilng.png"
-    />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" href="global.css">
-  </head>
-  <style>
-    body {
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      text-align: center;
-      font-size: large;
-      font-weight: bold;
-      color: whitesmoke;
-      background: radial-gradient(circle at center, rgb(0, 0, 0), rgb(17, 20, 17));
-    }
-    img {
-      border: 4px solid rgb(0, 128, 98);
-      border-radius: 15px;
-      display: inline-block;
-      width: 200px;
-      transition: all 0.5s ease;
-    }
-    @media (max-width: 400px) {
-      img {
-        width: 150px;
-      }
-    }
-    a {
-      text-decoration: none;
-      font-size: 24px;
-      margin: 5px;
-    }
-    img:hover {
-      transform: scale(1.04);
-    }
-    #gameLink {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      box-shadow: rgb(31, 31, 31) 0 0 10px 1px;
-      border-radius: 10px;
-    }
-    header {
-      background-color: rgb(37, 41, 40);
-      justify-content: center;
-      align-items: center;
-      border-radius: 6px;
-    }
-    #treasureHunt {
-      background-color: gold;
-    }
-  
-  </style>
-  <body>
-    <header>
-      <h1>Welcome to Playbud</h1>
-      <p>Discover and play exciting games online.</p>
-    </header>
-    <h2>Available Games:</h2>
-    <nav>
-      <div id="gameLink">
-        <a href="inver.html"
-          ><img
-            src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757779147/ChatGPT_Image_Sep_13_2025_05_57_35_PM_h2x2qj.png"
-            alt="inver logo"
-        /></a>
-        <a href="randomGuessGame.html"
-          ><img
-            src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757779687/ChatGPT_Image_Sep_13_2025_06_07_52_PM_gbxzei.png"
-            alt="inver logo"
-        /></a>
-        <a href="treasure.html"
-          ><img
-            id="treasureHunt"
-            src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1761237244/treasure-hunt_xayjti.svg"
-            alt=" Pirate Treasure Logo"
-        /></a>
-      </div>
-    </nav>
-    <footer>
-      
- <div id="FromScybud">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playbud — Game Portal</title>
 
-        <h5>Also From Scybud</h5>
-        <div id="scybudApps">
-       
+  <meta name="description" content="Playbud — Discover and play exciting games online." />
+  <meta name="keywords" content="games, online games, Scybud, Playbud, fun, play, entertainment" />
+  <meta name="author" content="Playbud" />
+
+  <meta property="og:title" content="Playbud Game Portal" />
+  <meta property="og:description" content="Discover and play exciting games online at Playbud Game Portal." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://scyflix.github.io/Playbud/" />
+  <meta property="og:image" content="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757763602/ChatGPT_Image_Sep_13_2025_01_23_30_PM_gqilng.png" />
+
+  <meta name="twitter:title" content="Playbud Game Portal" />
+  <meta name="twitter:description" content="Discover and play exciting games online at Playbud Game Portal." />
+  <meta name="twitter:image" content="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757763602/ChatGPT_Image_Sep_13_2025_01_23_30_PM_gqilng.png" />
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="global.css" />
+</head>
+
+<style>
+  body {
+    font-family: "Inter", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background: radial-gradient(circle at center, #000, #111411);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: #252928;
+    padding: 30px 0;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: 1.6rem;
+  }
+
+  /* Game Grid */
+  #gameLink {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 0 0 10px 1px #1f1f1f;
+    border-radius: 10px;
+    margin: 0 auto 40px;
+    max-width: 900px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 200px;
+    border-radius: 15px;
+    border: 4px solid rgba(0, 128, 98, 0.3);
+    transition: transform 0.4s ease, border-color 0.4s ease;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+    border-color: rgba(0, 255, 180, 0.4);
+  }
+
+  @media (max-width: 400px) {
+    img {
+      width: 150px;
+    }
+  }
+#treasureHunt {
+  background: gold;
+}
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    padding: 30px 0;
+    background: #000;
+  }
+
+  #FromScybud h5 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+
+  #scybudApps {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  #scybudApps .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  #scybudApps img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+  }
+
+  #scybudApps span {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+
+  footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    opacity: 0.6;
+  }
+</style>
+
+<body>
+
+  <header>
+    <h1>Welcome to Playbud</h1>
+    <p>Discover and play exciting games online.</p>
+  </header>
+
+  <h2>Available Games</h2>
+
+  <nav>
+    <div id="gameLink">
+
+      <a href="inver.html">
+        <img src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757779147/ChatGPT_Image_Sep_13_2025_05_57_35_PM_h2x2qj.png" alt="Inver Logo" />
+      </a>
+
+      <a href="randomGuessGame.html">
+        <img src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757779687/ChatGPT_Image_Sep_13_2025_06_07_52_PM_gbxzei.png" alt="Random Guess Game Logo" />
+      </a>
+
+      <a href="treasure.html">
+        <img id="treasureHunt" src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1761237244/treasure-hunt_xayjti.svg" alt="Pirate Treasure Logo" />
+      </a>
+
+    </div>
+  </nav>
+
+  <footer>
+    <div id="FromScybud">
+      <h5>Also From Scybud</h5>
+
+      <div id="scybudApps">
+
         <a href="https://scyflix.github.io/RushSite/" target="_blank">
           <div class="container">
-          <img
-            src="https://scyflix.github.io/RushSite/assets/RushSite%20logo.svg"
-            alt="RushSite Logo"
-            />
+            <img src="https://scyflix.github.io/RushSite/assets/RushSite%20logo.svg" alt="RushSite Logo" />
             <span>RushSite</span>
           </div>
         </a>
+
         <a href="https://trytasty.de/" target="_blank">
           <div class="container">
-
-            <img
-            src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1756143298/export202508172154182910_eqqsko.avif"
-            alt="TryTasty Logo"
-            />
+            <img src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1756143298/export202508172154182910_eqqsko.avif" alt="TryTasty Logo" />
             <span>TryTasty</span>
           </div>
         </a>
+
         <a href="https://scyflix.github.io/Playbud/" target="_blank">
-         <div class="container">
-
-           <img
-             src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757763602/ChatGPT_Image_Sep_13_2025_01_23_30_PM_gqilng.png"
-             alt="Playbud Logo"
-           />
-           <span>Playbud</span>
-         </div>
+          <div class="container">
+            <img src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1757763602/ChatGPT_Image_Sep_13_2025_01_23_30_PM_gqilng.png" alt="Playbud Logo" />
+            <span>Playbud</span>
+          </div>
         </a>
-        <a href="https://scyflix.github.io/Scybud-Labs/" target="_blank">
-         <div class="container">
-           <img
-             src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1750181306/My%20Brand/file_00000000610c6243beec099c93f3f4eb_wgtezq.png"
-             alt="Scybud Logo"
-             />
-             <span>Scybud</span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <hr />
 
-      <p>&copy; Playbud. All Rights Reserved</p>
-    </footer>
-  </body>
+        <a href="https://scyflix.github.io/Scybud-Labs/" target="_blank">
+          <div class="container">
+            <img src="https://res.cloudinary.com/dc1bmavl5/image/upload/v1750181306/My%20Brand/file_00000000610c6243beec099c93f3f4eb_wgtezq.png" alt="Scybud Logo" />
+            <span>Scybud</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <hr />
+
+    <p>&copy; Playbud. All Rights Reserved.</p>
+  </footer>
+
+</body>
 </html>
